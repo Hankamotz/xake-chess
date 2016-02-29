@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Chess
+Exec=webapp-container --inspector ./www/chessboard_js.html
+Icon=xake.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+

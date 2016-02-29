@@ -1,0 +1,17 @@
+{
+    "name": "xake.hankamotz",
+    "description": "chess game based on Cinnamon Chess Engine",
+    "architecture": "all",
+    "title": "Chess",
+    "hooks": {
+        "xake": {
+            "apparmor": "xake.apparmor",
+            "desktop":  "xake.desktop"
+        }
+    },
+    "version": "0.3",
+    "maintainer": "Andima Landaluze <andimalo@hotmail.es>",
+    "framework" : "ubuntu-sdk-15.04"
+}
+
+
