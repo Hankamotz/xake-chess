@@ -20,13 +20,7 @@
 <script src="/usr/share/ubuntu-html5-ui-toolkit/0.1/ambiance/js/tabs.js"></script>
 <script src="/usr/share/ubuntu-html5-ui-toolkit/0.1/ambiance/js/tab.js"></script>
 
-<script>
-        var UI = new UbuntuUI();
-        window.onload = function() {
-          
-        };
-    
-</script>
+
 
 </head>
 <body>
@@ -34,25 +28,13 @@
 
         <header data-role="header">
             <ul data-role="tabs">
-                <li data-role="tabitem" >Chess</li>
+		<li data-role="tabitem" data-page="main" class="active">Chess</li>
             </ul>
         </header>
+ <div data-role="content">
 
 
 <link rel="stylesheet" href="./chessboardjs/css/chessboard.css"><div>
-
-
-<br><br><br><br><br><br>
-
-<div id="board" style="width:auto" align="center"></div>
-<br>
-  
-<p class="large-font" align="center"><span id="status"></span></p>
-
-<br><br>
-<button data-role="button" id="startPositionBtn">Restart</button>
-<br>
-
 <script src="./cinnamon_engine_1_2b.js"></script>
 <script src="./chessboardjs/chess.js"></script>
 <script src="./chessboardjs/json3.min.js"></script>
@@ -60,6 +42,27 @@
 <script src="./chessboardjs/chessboard.js"></script>
 <script src="./cinnamon.js"></script>
 
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div id="board" style="width:auto" align="center"></div>
+
+<br>
+<br>
+<br>
+
+<div align="center"><div style="width: 200px" ><button data-role="button" id="startPositionBtn">Restart</button></div></div>
+
+<br>
+
+<p class="large-font" align="center"><span id="status"></span></p>
+
+</div>
+</div>
 
 </body>
 </html>
