@@ -415,7 +415,7 @@ function expandConfig() {
 
   // default for showNotation is true
   if (cfg.showNotation !== false) {
-    cfg.showNotation = true;
+    cfg.showNotation = false;
   }
 
   // default for draggable is false
