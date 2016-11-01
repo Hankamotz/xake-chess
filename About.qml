@@ -5,30 +5,10 @@ import Ubuntu.Components 1.3
     \brief MainView with a Label and Button elements.
 */
 
-MainView {
-    // objectName for functional testing purposes (autopilot-qt5)
-    objectName: "mainView"
-
-    // Note! applicationName needs to match the "name" field of the click manifest
-    applicationName: "xake.hankamotz"
-    automaticOrientation: true
-
-
-    width: units.gu(41)
-    height: units.gu(70)
-    
-    anchorToKeyboard: true
-
-
-
-    PageStack {
-          id: pageStack
-          Component.onCompleted: push(page1)
-            width: parent.width
             
     Page {
             
-            id: page1
+            id: aboutPage
             visible: false
         header: PageHeader {
             id: pageHeader
@@ -40,22 +20,23 @@ MainView {
                                    id: actionSettings
                                    iconName: "back"
                                    text: i18n.tr("Back")
-                                   onTriggered:  pageStack.push(Qt.resolvedUrl("Main.qml"))
+                                   onTriggered: {
+                                                           onClicked: mainPageStack.pop(aboutPage)
+                                                       }
                                }
                            ]
                        }
         }
-        Column {
-            anchors {
-                horizontalCenter: parent.horizontalCenter
-                top: pageHeader.bottom
-                topMargin: units.gu(6)
-            }
+
 
         Image {
                         id: appImage
                         source: "xake.png"
-                        anchors.horizontalCenter: parent.horizontalCenter
+                        anchors{
+
+                            horizontalCenter: parent.horizontalCenter
+                            top: pageHeader.bottom
+                            topMargin: units.gu(6)
                     }
         Label {
             anchors {
@@ -123,7 +104,6 @@ MainView {
 
         }
     }
-  }
- }
+
 
 
