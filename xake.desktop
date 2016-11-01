@@ -1,8 +1,10 @@
 [Desktop Entry]
 Name=Chess
-Exec=webapp-container --inspector ./www/chessboard_js.html
+Exec=qmlscene %U Main.qml
 Icon=xake.png
 Terminal=false
 Type=Application
 X-Ubuntu-Touch=true
+X-Ubuntu-Splash-Color=white
+X-Ubuntu-Supported-Orientations=portrait
 
