@@ -1,30 +1,30 @@
 import QtQuick 2.4
 import Ubuntu.Components 1.3
 import Ubuntu.Web 0.2
-/*!
-    \brief MainView with a Label and Button elements.
-*/
+
+
 
 MainView {
-    // objectName for functional testing purposes (autopilot-qt5)
+
     objectName: "mainView"
 
-    // Note! applicationName needs to match the "name" field of the click manifest
+
     applicationName: "xake.hankamotz"
 
     automaticOrientation: true
-    width: units.gu(41)
+    width: units.gu(100)
     height: units.gu(70)
     
     anchorToKeyboard: true
 
     PageStack {
-              id: pageStack
-              Component.onCompleted: push(page0)
-               width: parent.width
+              id: mainPageStack
+              Component.onCompleted: push(pageMain)
+              anchors.fill: parent
+                     width: parent.width
                
         Page {
-            id: page0
+            id: pageMain
             visible: false
          
         header: PageHeader {
@@ -37,7 +37,7 @@ MainView {
                                                id: actionAbout
                                                iconName: "info"
                                                text: i18n.tr("About")
-                                               onTriggered:  pageStack.push(Qt.resolvedUrl("About.qml"))
+                                               onTriggered:  mainPageStack.push(Qt.resolvedUrl("About.qml"))
                                                 },
                                              Action {
                                                    id: actionreload
@@ -58,6 +58,7 @@ MainView {
 
                    WebView {
                        id: webview
+                       width: parent.width
                        anchors.top: pageHeader.bottom
                        anchors.bottom: parent.bottom
                        anchors.left: parent.left
@@ -73,9 +74,11 @@ MainView {
                        preferences.javascriptEnabled: true
 
                        onLoadingStateChanged: {
-                           if (!loading && !mainPageStack.onLoadingExecuted)
-                               pageMain.btnsEnabled = true;
-                       }
+                                          if (!loading && !mainPageStack.onLoadingExecuted)
+                                              pageMain.btnsEnabled = true;
+                                      }
+
+
 
                        onNavigationRequested:{
                            var url = request.url.toString();
