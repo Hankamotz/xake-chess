@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-01 14:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/ordenagailua/xake/xake/xake/About.qml:15
+#: /home/ordenagailua/xake/xake/xake/Main.qml:39
+msgid "About"
+msgstr "Acerca de"
+
+#: /home/ordenagailua/xake/xake/xake/About.qml:22
+msgid "Back"
+msgstr "Volver"
+
+#: /home/ordenagailua/xake/xake/xake/About.qml:49
+msgid "Chess v.0.5"
+msgstr "Ajedrez v.0.5"
+
+#: /home/ordenagailua/xake/xake/xake/About.qml:59
+msgid "2016"
+msgstr "2016"
+
+#: /home/ordenagailua/xake/xake/xake/About.qml:69
+msgid "Andima Landaluze <andimalo@hotmail.es>"
+msgstr "Andima Landaluze <andimalo@hotmail.es>"
+
+#: /home/ordenagailua/xake/xake/xake/About.qml:79
+msgid "This app uses:"
+msgstr "Esta aplicación utiliza:"
+
+#: /home/ordenagailua/xake/xake/xake/About.qml:90
+msgid "cinnamon chess engine (GPL v.3 license)"
+msgstr "el motor de ajedrez Cinnamon (licencia GPL v.3)"
+
+#: /home/ordenagailua/xake/xake/xake/About.qml:101
+msgid "chessboardjs (MIT license)"
+msgstr "chessboardjs (licencia MIT)"
+
+#: /home/ordenagailua/xake/xake/xake/Main.qml:32
+msgid "Chess"
+msgstr "Ajedrez"
+
+#: /home/ordenagailua/xake/xake/xake/Main.qml:45
+msgid "Reload"
+msgstr "Actualizar"
