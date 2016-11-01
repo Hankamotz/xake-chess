@@ -24,7 +24,7 @@ msgstr "Acerca de"
 
 #: /home/ordenagailua/xake/xake/xake/About.qml:22
 msgid "Back"
-msgstr "Volver"
+msgstr "Atrás"
 
 #: /home/ordenagailua/xake/xake/xake/About.qml:49
 msgid "Chess v.0.5"
