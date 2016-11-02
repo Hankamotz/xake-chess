@@ -66,7 +66,7 @@ MainView {
                        //anchors.fill: parent
                        z: -6
                        context: webcontext
-                       url: "white/white.html"
+                       url: "www/chessboard_js.html"
                        preferences.allowFileAccessFromFileUrls: true
                        preferences.allowUniversalAccessFromFileUrls: true
                        preferences.appCacheEnabled: true
