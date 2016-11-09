@@ -66,11 +66,11 @@ msgid "Chess"
 msgstr ""
 
 #: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/Main.qml:62
-msgid "New game white"
+msgid "New game as white"
 msgstr ""
 
 #: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/Main.qml:76
-msgid "New game black"
+msgid "New game as black"
 msgstr ""
 
 #: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/white.qml:13
