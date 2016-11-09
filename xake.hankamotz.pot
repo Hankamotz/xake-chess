@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-01 14:27+0000\n"
+"POT-Creation-Date: 2016-11-09 11:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,43 +17,62 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/ordenagailua/xake/xake/xake/About.qml:15
-#: /home/ordenagailua/xake/xake/xake/Main.qml:39
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:15
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/Main.qml:39
 msgid "About"
 msgstr ""
 
-#: /home/ordenagailua/xake/xake/xake/About.qml:22
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:22
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/black.qml:20
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/white.qml:20
 msgid "Back"
 msgstr ""
 
-#: /home/ordenagailua/xake/xake/xake/About.qml:49
-msgid "Chess v.0.5"
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:49
+msgid "Chess v.0.5.2"
 msgstr ""
 
-#: /home/ordenagailua/xake/xake/xake/About.qml:59
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:59
 msgid "2016"
 msgstr ""
 
-#: /home/ordenagailua/xake/xake/xake/About.qml:69
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:69
 msgid "Andima Landaluze <andimalo@hotmail.es>"
 msgstr ""
 
-#: /home/ordenagailua/xake/xake/xake/About.qml:79
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:79
 msgid "This app uses:"
 msgstr ""
 
-#: /home/ordenagailua/xake/xake/xake/About.qml:90
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:90
 msgid "cinnamon chess engine (GPL v.3 license)"
 msgstr ""
 
-#: /home/ordenagailua/xake/xake/xake/About.qml:101
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:101
 msgid "chessboardjs (MIT license)"
 msgstr ""
 
-#: /home/ordenagailua/xake/xake/xake/Main.qml:32
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/black.qml:13
+msgid "Black"
+msgstr ""
+
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/black.qml:28
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/white.qml:28
+msgid "Reload"
+msgstr ""
+
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/Main.qml:32
 msgid "Chess"
 msgstr ""
 
-#: /home/ordenagailua/xake/xake/xake/Main.qml:45
-msgid "Reload"
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/Main.qml:62
+msgid "New game white"
+msgstr ""
+
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/Main.qml:76
+msgid "New game black"
+msgstr ""
+
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/white.qml:13
+msgid "White"
 msgstr ""
