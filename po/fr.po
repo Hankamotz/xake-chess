@@ -40,7 +40,7 @@ msgstr "Andima Landaluze <andimalo@hotmail.es>"
 
 #: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:79
 msgid "This app uses:"
-msgstr "Cette application utilise[nbsp]:"
+msgstr "Cette application utilise :"
 
 #: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:90
 msgid "cinnamon chess engine (GPL v.3 license)"
@@ -52,7 +52,7 @@ msgstr "chessboardjs (sous licence MIT)"
 
 #: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/black.qml:13
 msgid "Black"
-msgstr ""
+msgstr "Noirs"
 
 #: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/black.qml:28
 #: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/white.qml:28
@@ -65,12 +65,12 @@ msgstr "Échecs"
 
 #: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/Main.qml:62
 msgid "New game as white"
-msgstr ""
+msgstr "Nouvelle partie avec les blancs"
 
 #: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/Main.qml:76
 msgid "New game as black"
-msgstr ""
+msgstr "Nouvelle partie avec les noirs"
 
 #: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/white.qml:13
 msgid "White"
-msgstr ""
+msgstr "Blancs"
