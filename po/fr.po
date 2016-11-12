@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: xake.hankamotz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-09 15:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Anne017 <EMAIL@ADDRESS>\n"
+"Language-Team: French <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:15
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/Main.qml:44
+msgid "About"
+msgstr " propos"
+
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:22
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/black.qml:20
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/white.qml:20
+msgid "Back"
+msgstr "Retour"
+
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:49
+msgid "Chess v.0.5.2"
+msgstr "Échecs v.0.5.2"
+
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:59
+msgid "2016"
+msgstr "2016"
+
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:69
+msgid "Andima Landaluze <andimalo@hotmail.es>"
+msgstr "Andima Landaluze <andimalo@hotmail.es>"
+
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:79
+msgid "This app uses:"
+msgstr "Cette application utilise :"
+
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:90
+msgid "cinnamon chess engine (GPL v.3 license)"
+msgstr "Le moteur d'échecs Cinnamon (sous licence GPL v.3)"
+
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:101
+msgid "chessboardjs (MIT license)"
+msgstr "chessboardjs (sous licence MIT)"
+
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/black.qml:13
+msgid "Black"
+msgstr "Noirs"
+
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/black.qml:28
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/white.qml:28
+msgid "Reload"
+msgstr "Actualiser"
+
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/Main.qml:32
+msgid "Chess"
+msgstr "Échecs"
+
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/Main.qml:62
+msgid "New game as white"
+msgstr "Nouvelle partie avec les blancs"
+
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/Main.qml:76
+msgid "New game as black"
+msgstr "Nouvelle partie avec les noirs"
+
+#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/white.qml:13
+msgid "White"
+msgstr "Blancs"
