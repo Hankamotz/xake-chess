@@ -17,6 +17,7 @@ MainView {
     
     anchorToKeyboard: true
 
+
     PageStack {
               id: mainPageStack
               Component.onCompleted: push(pageMain)
@@ -30,63 +31,59 @@ MainView {
         header: PageHeader {
             id: pageHeader
             title: i18n.tr("Chess")
+
             trailingActionBar {
-                                       numberOfSlots: 2
+                                       numberOfSlots: 1
                                        actions: [
                                            Action {
                                                id: actionAbout
                                                iconName: "info"
                                                text: i18n.tr("About")
                                                onTriggered:  mainPageStack.push(Qt.resolvedUrl("About.qml"))
-                                                },
-                                             Action {
-                                                   id: actionreload
-                                                   iconName: "reload"
-                                                   text: i18n.tr("Reload")
-                                                   onTriggered: webview.reload()
+                                                }
 
-                                           }
+
+
                                        ]
                                    }
 
         }
-        WebContext {
-                       id: webcontext
-                       userAgent: "Mozilla/5.0 (Linux; Android 5.0; Nexus 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Mobile Safari/537.36"
-
-                   }
-
-                   WebView {
-                       id: webview
-                       width: parent.width
-                       anchors.top: pageHeader.bottom
-                       anchors.bottom: parent.bottom
-                       anchors.left: parent.left
-                       anchors.right: parent.right
-                       //anchors.fill: parent
-                       z: -6
-                       context: webcontext
-                       url: "www/chessboard_js.html"
-                       preferences.allowFileAccessFromFileUrls: true
-                       preferences.allowUniversalAccessFromFileUrls: true
-                       preferences.appCacheEnabled: true
-                       preferences.javascriptCanAccessClipboard: true
-                       preferences.javascriptEnabled: true
-
-                       onLoadingStateChanged: {
-                                          if (!loading && !mainPageStack.onLoadingExecuted)
-                                              pageMain.btnsEnabled = true;
-                                      }
 
 
+            Button {
+                anchors{
 
-                       onNavigationRequested:{
-                           var url = request.url.toString();
+                    horizontalCenter: parent.horizontalCenter
+                    top: pageHeader.bottom
+                    topMargin: units.gu(6)
+            }
 
-                             }
-                         }
-                     }
+                id: "whitebutton"
+
+                width:  units.gu(22)
+                text: i18n.tr( "New game as white")
+                color: "#ffffff"
+                onTriggered: mainPageStack.push(Qt.resolvedUrl("white.qml"))
+            }
+            Button {
+                anchors{
+
+                    horizontalCenter: parent.horizontalCenter
+                    top: whitebutton.bottom
+                    topMargin: units.gu(2)
+            }
+                id: "blackbutton"
+
+                width:  units.gu(22)
+                text: i18n.tr("New game as black")
+                color: "#3b3b3b"
+                onTriggered:  mainPageStack.push(Qt.resolvedUrl("black.qml"))
+
+            }
+           }
+        }
+
+
+
+
       }
-}
-
-
