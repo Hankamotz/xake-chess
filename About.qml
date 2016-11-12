@@ -46,7 +46,7 @@ import Ubuntu.Components 1.3
             }
             id: label
             objectName: "label"
-            text: i18n.tr("Chess v.0.5")
+            text: i18n.tr("Chess v.0.5.2")
         }
         Label {
             anchors {
