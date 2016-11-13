@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: xake.hankamotz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-09 15:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Andima Landaluze <andimalo@hotmail.es>\n"
+"Language-Team: Spanish <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/ordenagailua/xake/xake/About.qml:15
+#: /home/ordenagailua/xake/xake/Main.qml:41
+msgid "About"
+msgstr "Acerca de"
+
+#: /home/ordenagailua/xake/xake/About.qml:22
+#: /home/ordenagailua/xake/xake/black.qml:20
+#: /home/ordenagailua/xake/xake/chess_tv.qml:21
+#: /home/ordenagailua/xake/xake/daily_puzzle.qml:21
+#: /home/ordenagailua/xake/xake/white.qml:20
+msgid "Back"
+msgstr "Atras"
+
+#: /home/ordenagailua/xake/xake/About.qml:49
+msgid "Chess v.0.5.4"
+msgstr "Ajedrez v.0.5.4"
+
+#: /home/ordenagailua/xake/xake/About.qml:59
+msgid "2016"
+msgstr "2016"
+
+#: /home/ordenagailua/xake/xake/About.qml:69
+msgid "Andima Landaluze <andimalo@hotmail.es>"
+msgstr "Andima Landaluze <andimalo@hotmail.es>"
+
+#: /home/ordenagailua/xake/xake/About.qml:79
+msgid "This app uses:"
+msgstr "Esta aplicación utiliza:"
+
+#: /home/ordenagailua/xake/xake/About.qml:90
+msgid "cinnamon chess engine (GPL v.3 license)"
+msgstr "el motor de ajedrez Cinnamon (licencia GPL v.3)"
+
+#: /home/ordenagailua/xake/xake/About.qml:101
+msgid "chessboardjs (MIT license)"
+msgstr "chessboardjs (licencia MIT)"
+
+#: /home/ordenagailua/xake/xake/About.qml:112
+msgid "lichess.org (AGPL v.3 license)"
+msgstr "lichess.org (licencia AGPL v.3)"
+
+#: /home/ordenagailua/xake/xake/black.qml:13
+msgid "Black"
+msgstr ""
+
+#: /home/ordenagailua/xake/xake/black.qml:28
+#: /home/ordenagailua/xake/xake/chess_tv.qml:29
+#: /home/ordenagailua/xake/xake/daily_puzzle.qml:29
+#: /home/ordenagailua/xake/xake/white.qml:28
+msgid "Reload"
+msgstr "Negras"
+
+#: /home/ordenagailua/xake/xake/chess_tv.qml:14
+#: /home/ordenagailua/xake/xake/Main.qml:107
+msgid "Chess TV"
+msgstr "Chess TV"
+
+#: /home/ordenagailua/xake/xake/daily_puzzle.qml:14
+msgid "Daily puzzle"
+msgstr "Pasatiempos diario"
+
+#: /home/ordenagailua/xake/xake/Main.qml:33
+msgid "Chess"
+msgstr "Ajedrez"
+
+#: /home/ordenagailua/xake/xake/Main.qml:64
+msgid "New game as white"
+msgstr "Nuevo juego blancas"
+
+#: /home/ordenagailua/xake/xake/Main.qml:78
+msgid "New game as black"
+msgstr "Nuevo juego negras"
+
+#: /home/ordenagailua/xake/xake/Main.qml:93
+msgid "Daily Puzzle"
+msgstr "Pasatiempos diario"
+
+#: /home/ordenagailua/xake/xake/white.qml:13
+msgid "White"
+msgstr "Blancas"
