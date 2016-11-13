@@ -80,6 +80,34 @@ MainView {
                 onTriggered:  mainPageStack.push(Qt.resolvedUrl("black.qml"))
 
             }
+            Button {
+                anchors{
+
+                    horizontalCenter: parent.horizontalCenter
+                    top: blackbutton.bottom
+                    topMargin: units.gu(6)
+            }
+                id: "dailybutton"
+
+                width:  units.gu(22)
+                text: i18n.tr("Daily Puzzle")
+                onTriggered:  mainPageStack.push(Qt.resolvedUrl("daily_puzzle.qml"))
+
+            }
+            Button {
+                anchors{
+
+                    horizontalCenter: parent.horizontalCenter
+                    top: dailybutton.bottom
+                    topMargin: units.gu(2)
+            }
+                id: "chesstvbutton"
+
+                width:  units.gu(22)
+                text: i18n.tr("Chess TV")
+                onTriggered:  mainPageStack.push(Qt.resolvedUrl("chess_tv.qml"))
+
+            }
            }
         }
 
