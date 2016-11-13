@@ -2,7 +2,10 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-
+#
+#, fuzzy
+msgid ""
+msgstr ""
 "Project-Id-Version: xake.hankamotz\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-09 11:44+0000\n"
@@ -14,64 +17,83 @@
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../About.qml:15
-#: ../Main.qml:41
+#: /home/ordenagailua/xake/xake/About.qml:15
+#: /home/ordenagailua/xake/xake/Main.qml:41
 msgid "About"
 msgstr "Honi buruz"
 
-#: ../About.qml:22
-#: ../black.qml:20
-#: ../white.qml:20
+#: /home/ordenagailua/xake/xake/About.qml:22
+#: /home/ordenagailua/xake/xake/black.qml:20
+#: /home/ordenagailua/xake/xake/chess_tv.qml:21
+#: /home/ordenagailua/xake/xake/daily_puzzle.qml:21
+#: /home/ordenagailua/xake/xake/white.qml:20
 msgid "Back"
 msgstr "Itzuli"
 
-#: ../About.qml:49
-msgid "Chess v.0.5.2"
-msgstr "Xake v.0.5.2"
+#: /home/ordenagailua/xake/xake/About.qml:49
+msgid "Chess v.0.5.4"
+msgstr "Xake v.0.5.4"
 
-#: ../About.qml:59
+#: /home/ordenagailua/xake/xake/About.qml:59
 msgid "2016"
 msgstr "2016"
 
-#: ../About.qml:69
+#: /home/ordenagailua/xake/xake/About.qml:69
 msgid "Andima Landaluze <andimalo@hotmail.es>"
 msgstr "Andima Landaluze <andimalo@hotmail.es>"
 
-#: ../About.qml:79
+#: /home/ordenagailua/xake/xake/About.qml:79
 msgid "This app uses:"
 msgstr "App honek erabiltzen du:"
 
-#: ../About.qml:90
+#: /home/ordenagailua/xake/xake/About.qml:90
 msgid "cinnamon chess engine (GPL v.3 license)"
 msgstr "cinnamon xake motorea (GPL v.3 lizentzia)"
 
-#: ../About.qml:101
+#: /home/ordenagailua/xake/xake/About.qml:101
 msgid "chessboardjs (MIT license)"
 msgstr "chessboardjs (MIT lizentzia)"
 
-#: ../black.qml:13
+#: /home/ordenagailua/xake/xake/About.qml:112
+msgid "lichess.org (AGPL v.3 license)"
+msgstr "lichess.org (AGPL v.3 lizentzia)"
+
+#: /home/ordenagailua/xake/xake/black.qml:13
 msgid "Black"
 msgstr "Beltza"
 
-#: ../black.qml:28
-#: ../white.qml:28
+#: /home/ordenagailua/xake/xake/black.qml:28
+#: /home/ordenagailua/xake/xake/chess_tv.qml:29
+#: /home/ordenagailua/xake/xake/daily_puzzle.qml:29
+#: /home/ordenagailua/xake/xake/white.qml:28
 msgid "Reload"
 msgstr "Birkargatu"
 
-#: ../Main.qml:33
+#: /home/ordenagailua/xake/xake/chess_tv.qml:14
+#: /home/ordenagailua/xake/xake/Main.qml:107
+msgid "Chess TV"
+msgstr "Chess TV"
+
+#: /home/ordenagailua/xake/xake/daily_puzzle.qml:14
+msgid "Daily puzzle"
+msgstr "Eguneko denborapasa"
+
+#: /home/ordenagailua/xake/xake/Main.qml:33
 msgid "Chess"
 msgstr "Xake"
 
-#: ../Main.qml:64
-
+#: /home/ordenagailua/xake/xake/Main.qml:64
 msgid "New game as white"
 msgstr "Joko zuri berria"
 
-#: ../Main.qml:78
-
+#: /home/ordenagailua/xake/xake/Main.qml:78
 msgid "New game as black"
 msgstr "Joko beltz berria"
 
-#: ../white.qml:13
+#: /home/ordenagailua/xake/xake/Main.qml:93
+msgid "Daily Puzzle"
+msgstr "Eguneko denborapasa"
+
+#: /home/ordenagailua/xake/xake/white.qml:13
 msgid "White"
 msgstr "Zuria"
