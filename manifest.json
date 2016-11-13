@@ -9,7 +9,7 @@
             "desktop":  "xake.desktop"
         }
     },
-    "version": "0.5.2",
+    "version": "0.5.4",
     "maintainer": "Andima Landaluze <andimalo@hotmail.es>",
     "framework" : "ubuntu-sdk-15.04.5"
 }
