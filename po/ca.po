@@ -17,62 +17,83 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:15
-#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/Main.qml:39
+#: /home/ordenagailua/xake/xake/About.qml:15
+#: /home/ordenagailua/xake/xake/Main.qml:41
 msgid "About"
 msgstr "Quant a"
 
-#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:22
-#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/black.qml:20
-#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/white.qml:20
+#: /home/ordenagailua/xake/xake/About.qml:22
+#: /home/ordenagailua/xake/xake/black.qml:20
+#: /home/ordenagailua/xake/xake/chess_tv.qml:21
+#: /home/ordenagailua/xake/xake/daily_puzzle.qml:21
+#: /home/ordenagailua/xake/xake/white.qml:20
 msgid "Back"
 msgstr "Enrere"
 
-#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:49
-msgid "Chess v.0.5.2"
-msgstr "Chess v.0.5.2"
+#: /home/ordenagailua/xake/xake/About.qml:49
+msgid "Chess v.0.5.4"
+msgstr "Chess v.0.5.4"
 
-#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:59
+#: /home/ordenagailua/xake/xake/About.qml:59
 msgid "2016"
 msgstr "2016"
 
-#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:69
+#: /home/ordenagailua/xake/xake/About.qml:69
 msgid "Andima Landaluze <andimalo@hotmail.es>"
 msgstr "Andima Landaluze <andimalo@hotmail.es>"
 
-#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:79
+#: /home/ordenagailua/xake/xake/About.qml:79
 msgid "This app uses:"
 msgstr "Aquesta aplicació usa:"
 
-#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:90
-msgid "cinnamon chess engine (Llicència GPL v.3)"
+#: /home/ordenagailua/xake/xake/About.qml:90
+msgid "cinnamon chess engine (GPL v.3 license)"
 msgstr "cinnamon chess engine (Llicència GPL v.3)"
 
-#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/About.qml:101
-msgid "chessboardjs (Llicència MIT)"
+#: /home/ordenagailua/xake/xake/About.qml:101
+msgid "chessboardjs (MIT license)"
 msgstr "chessboardjs (Llicència MIT)"
 
-#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/black.qml:13
+#: /home/ordenagailua/xake/xake/About.qml:112
+msgid "lichess.org (AGPL v.3 license)"
+msgstr "lichess.org (Llicencia AGPL v.3)"
+
+#: /home/ordenagailua/xake/xake/black.qml:13
 msgid "Black"
 msgstr "Negres"
 
-#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/black.qml:28
-#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/white.qml:28
+#: /home/ordenagailua/xake/xake/black.qml:28
+#: /home/ordenagailua/xake/xake/chess_tv.qml:29
+#: /home/ordenagailua/xake/xake/daily_puzzle.qml:29
+#: /home/ordenagailua/xake/xake/white.qml:28
 msgid "Reload"
 msgstr "Recarrega"
 
-#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/Main.qml:32
+#: /home/ordenagailua/xake/xake/chess_tv.qml:14
+#: /home/ordenagailua/xake/xake/Main.qml:107
+msgid "Chess TV"
+msgstr ""
+
+#: /home/ordenagailua/xake/xake/daily_puzzle.qml:14
+msgid "Daily puzzle"
+msgstr ""
+
+#: /home/ordenagailua/xake/xake/Main.qml:33
 msgid "Chess"
 msgstr "Escacs"
 
-#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/Main.qml:62
+#: /home/ordenagailua/xake/xake/Main.qml:64
 msgid "New game as white"
 msgstr "Nova partida amb blanques"
 
-#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/Main.qml:76
+#: /home/ordenagailua/xake/xake/Main.qml:78
 msgid "New game as black"
 msgstr "Nova partida amb negres"
 
-#: /home/ordenagailua/Mahaigaina/garapena/jokoa/chess/xake/xake/xake/white.qml:13
+#: /home/ordenagailua/xake/xake/Main.qml:93
+msgid "Daily Puzzle"
+msgstr ""
+
+#: /home/ordenagailua/xake/xake/white.qml:13
 msgid "White"
 msgstr "Blanques"
