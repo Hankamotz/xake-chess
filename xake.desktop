@@ -4,6 +4,7 @@ Name[eu]=Xake
 Name[es]=Ajedrez
 Name[fr]=Échecs
 Name[ca]=Escacs
+Name[it]=Scacchi
 Exec=qmlscene %U Main.qml
 Icon=xake.png
 Terminal=false
