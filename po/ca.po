@@ -3,14 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: xake.hankamotz\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-09 11:44+0000\n"
-"PO-Revision-Date: 2017-11-09 15:57+2\n"
-"Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
+"PO-Revision-Date: 2017-12-14 06:20+0100\n"
+"Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
 "Language-Team: Catalan <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -72,11 +71,11 @@ msgstr "Recarrega"
 #: /home/ordenagailua/xake/xake/chess_tv.qml:14
 #: /home/ordenagailua/xake/xake/Main.qml:107
 msgid "Chess TV"
-msgstr ""
+msgstr "Chess TV"
 
 #: /home/ordenagailua/xake/xake/daily_puzzle.qml:14
 msgid "Daily puzzle"
-msgstr ""
+msgstr "Trencaclosques diari"
 
 #: /home/ordenagailua/xake/xake/Main.qml:33
 msgid "Chess"
@@ -92,7 +91,7 @@ msgstr "Nova partida amb negres"
 
 #: /home/ordenagailua/xake/xake/Main.qml:93
 msgid "Daily Puzzle"
-msgstr ""
+msgstr "Trencaclosques diari"
 
 #: /home/ordenagailua/xake/xake/white.qml:13
 msgid "White"
