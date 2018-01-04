@@ -44,7 +44,7 @@ msgstr "Andima Landaluze <andimalo@hotmail.es>"
 
 #: /home/ordenagailua/xake/xake/About.qml:79
 msgid "This app uses:"
-msgstr "Cette application utilise "
+msgstr "Cette application utilise :"
 
 #: /home/ordenagailua/xake/xake/About.qml:90
 msgid "cinnamon chess engine (GPL v.3 license)"
@@ -72,11 +72,11 @@ msgstr "Actualiser"
 #: /home/ordenagailua/xake/xake/chess_tv.qml:14
 #: /home/ordenagailua/xake/xake/Main.qml:107
 msgid "Chess TV"
-msgstr ""
+msgstr "Télé Échecs"
 
 #: /home/ordenagailua/xake/xake/daily_puzzle.qml:14
 msgid "Daily puzzle"
-msgstr ""
+msgstr "Casse-tête du jour"
 
 #: /home/ordenagailua/xake/xake/Main.qml:33
 msgid "Chess"
@@ -92,7 +92,7 @@ msgstr "Nouvelle partie avec les noirs"
 
 #: /home/ordenagailua/xake/xake/Main.qml:93
 msgid "Daily Puzzle"
-msgstr ""
+msgstr "Casse-tête du jour"
 
 #: /home/ordenagailua/xake/xake/white.qml:13
 msgid "White"
